@@ -1,0 +1,21 @@
+#bottom
+{
+    background-color: lightblue;
+	
+    font-family: verdana;
+    font-size: 20px;
+}#middle{
+	background-color: grey;
+	
+    font-family: verdana;
+    font-size: 30px;
+}
+#top{
+	background-color:white;
+	
+    font-family: verdana;
+    font-size: 20px;
+}
+#grnd{
+	font color:brown;
+}

@@ -1,0 +1,46 @@
+<html>
+<head><title><center>SELECT & REGISTER </center></title>
+<p style=font-size:20><u>WHICH PART IN CHENNAI CITY DO YOU NEED AN ADMISSION? </u></p><br>
+<script language="javascript">
+function SelectRedirect(){
+
+switch(document.getElementById('s1').value)
+{
+case "1":
+window.location="http://localhost/php/project2/in/northside.html";
+break;
+
+case "2":
+window.location="southside.html";
+break;
+
+case "3":
+window.location="eastside.html";
+break;
+case "4":
+window.location="westside.html";
+break;
+default:
+window.location="login.html"; // if no selection matches then redirected to home page
+break;
+} 
+}
+</script>
+
+<SELECT id="s1" name="chennai" onChange="SelectRedirect();">
+<option   value="1" /> NORTH_CHENNAI
+<option   value="2" /> SOUTH_CHENNAI
+<option   value="3" /> EAST_CHENNAI
+<option   value="4" /> WEST_CHENNAI
+</select><hr><hr></form></div>
+
+<video width="320" height="240" controls>
+  <source src="admission video.mp4" type="video/mp4">
+</video>
+
+
+
+
+
+</head>
+</html>
